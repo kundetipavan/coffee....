@@ -1,0 +1,58 @@
+#page{
+    display:flex;
+    gap:30em;
+}
+#page h1{
+    color:red;
+    margin-left:2.5em;
+    margin-top:1.5em;
+}
+nav ul {
+    display:flex;
+   list-style:none;
+   gap:30px;
+   margin-top:3.5em;
+}
+nav ul li a{
+   text-decoration:none;
+   color:white;
+   transition:0.4s
+}
+nav ul li a:hover{
+    color:blue;
+    
+}
+#img{
+height: 33em;
+   border-radius:20px;
+   box-shadow: 0 0 20px  white;
+   backdrop-filter: blur(5px);
+   
+}
+.cf h1{
+    color:white ;
+    margin-left:2.5em;
+    margin-top:5em;
+}
+.cf h4{
+    color:white;
+    margin-left:5em;
+}
+body{
+    background-image: url(" https://img.freepik.com/premium-photo/cup-coffee-with-smoke-coffee-beans-old-wooden-background_126277-183.jpg?w=1060");
+    
+    width:70em; height:30em ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+padding: 70px;
+margin: 50px 50px;
+
+}
+@media only screen and (max-width:600px){
+    
+  #page{
+    width: 50px;
+  }
+}
